@@ -1,0 +1,161 @@
+* {
+  box-sizing: border-box;
+}
+
+.main-content {
+  width: 1170px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+a {
+  text-decoration: none;
+}
+
+.btn {
+  display: block;
+  border-radius: 6px;
+  border: 1px solid #1ebfc1;
+  width: 108px;
+  height: 48px;
+  color: #1ebfc1;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 42px;
+}
+
+.nav {
+  margin-top: 67px;
+  display: flex;
+}
+
+.nav .logo {
+  margin-right: 235px;
+}
+
+.nav ul {
+  display: flex;
+  align-items: center;
+}
+
+.nav ul li {
+  margin-left: 39px;
+}
+
+.nav li a {
+  color: #2f3a3b;
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.nav .actions {
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+}
+
+.nav .actions .Sign-in {
+  margin-right: 24px;
+  color: #494949;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.hero {
+  margin-top: 62px;
+}
+
+.hero-row {
+  display: flex;
+}
+
+.hero-left {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-right .thumb {
+  position: relative;
+  width: 576px;
+  height: 631px;
+  flex-shrink: 0;
+}
+
+.hero-info .desc1 {
+  color: #767e7e;
+  font-family: Poppins;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.hero-info .title {
+  color: #0d1111;
+  font-family: Poppins;
+  font-size: 62px;
+  font-weight: 700;
+  line-height: 72px;
+  margin-top: 18px;
+}
+
+.hero-info .desc2 {
+  margin-top: 46px;
+  color: #9da6a5;
+  font-family: Poppins;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 32px;
+  width: 374px;
+}
+
+.actions-hero {
+  display: flex;
+  align-items: center;
+}
+
+.action-btn .play-button {
+  width: 62px;
+  height: 62px;
+}
+
+.actions-hero .btn {
+  border-radius: 14px;
+  background: #1ebfc1;
+  box-shadow: 0px 10px 50px 0px rgba(0, 0, 0, 0.05);
+  width: 186px;
+  height: 68px;
+  flex-shrink: 0;
+  color: white;
+  line-height: 70px;
+}
+
+.actions-hero .play-button {
+  padding-top: 42px;
+}
+
+.Courses {
+  position: absolute;
+  border-radius: 18px;
+  background: #ffffff;
+  box-shadow: 0px 10px 80px 0px rgba(0, 0, 0, 0.05);
+  width: 157px;
+  height: 75px;
+  margin-left: 550px;
+  margin-top: 168px;
+}
+
+.Courses .book {
+  padding: 20px 25px;
+}
+
+.card {
+  position: absolute;
+  margin-top: 176px;
+  margin-left: 227px;
+}
